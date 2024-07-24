@@ -6,52 +6,52 @@
 # 1. 아래 문자열의 길이를 구해보세요.
 q1 = "dk2jd923i1jdk2jd93jfd92jd918943jfd8923"
 
-print('1. q1길이:\t', len(q1))
+print('1. q1길이: ', len(q1))
 
 
 # 2. print 함수를 사용해서 아래와 같이 출력해보세요.
 #    apple;orange;banana;lemon
 
-print('2. print:\t', '''apple;orange;banana;lemon''')
+print('2. print: ', '''apple;orange;banana;lemon''')
 
 
 # 3. 화면에 * 기호 100개를 표시하세요.
 
-print('3. *100개:\t', '*' * 100)
+print('3. *100개: ', '*' * 100)
 
 
 # 4. 문자열 "30" 을 각각 정수형, 실수형, 복소수형, 문자형으로 변환해보세요.
 a = str(30)
-print('4. 정수형:\t', int(a))
-print('   실수형:\t', float(a))
-print('   복소수형:\t', complex(a))
-print('   문자형:\t', a)
+print('4. 정수형: ', int(a))
+print('   실수형: ', float(a))
+print('   복소수형: ', complex(a))
+print('   문자형: ', a)
 
 
 # 5. 다음 문자열 "Niceman" 에서 "man" 문자열만 추출해보세요.
 
 str = "Niceman"
 manIdx = str.index("man")
-print('5. 문자추출:\t', str[manIdx:manIdx + 3])
+print('5. 문자추출: ', str[manIdx:manIdx + 3])
 
 
 # 6. 다음 문자열을 거꾸로 출력해보세요. : "Strawberry"
 
 sb = "Strawberry"
-print('6. reverse:\t', reversed(sb))
+print('6. reverse: ', reversed(sb))
 
 
 # 7. 다음 문자열에서 '-'를 제거 후 출력하세요. : "010-7777-9999"
 
 phoneNumber = "010-7777-9999"
-print('7. - 제거:\t', re.sub('[^0-9]', '', phoneNumber))
+print('7. - 제거: ', re.sub('[^0-9]', '', phoneNumber))
 
 
 # 8. 다음 문자열(URL)에서 "http://" 부분을 제거 후 출력하세요. : "http://daum.net"
 
 url = "http://daum.net"
 urlIdx = url.index('''http://''')
-print('8. http제거:\t', url[urlIdx + 7:])
+print('8. http제거: ', url[urlIdx + 7:])
 
 
 # 9. 다음 문자열을 모두 대문자, 소문자로 각각 출력해보세요. : "NiceMan"

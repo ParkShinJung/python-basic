@@ -13,7 +13,7 @@ c = {'arr': [1, 2, 3, 4, 5]}
 print(type(a))
 
 # 출력
-print(a['name'])    # 'name'이라는 key가 없으면 바로 에러!
+print(a['name'])    # 'name' 이라는 key 가 없으면 바로 에러!
 print(a.get('name'))
 print(a.get('address'))     # 'address'라는 Key가 없어도 에러는 안나고 None으로 출력! 위의 'a['name'] 방법보다 더 선호
 print(c['arr'][1:3])
